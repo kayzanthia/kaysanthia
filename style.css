@@ -1,0 +1,838 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html body{
+    background: url(../images/9wocimvaquu-artur-pokusin.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    font-family: 'Helvetica Neue', sans-serif;
+    
+}
+.clearfix{
+    clear: both;
+}
+/*--HEADER STYLING STARTS--*/
+.prof{
+    width: 400px;
+    height: 500px;
+    background: rgba(0,0,0,0.6);
+    padding: 30px;
+    color: white;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    
+    
+}
+.prof p{
+    font-size: 18px;
+    padding: 10px;
+    margin: 7px 0;
+}
+
+.prof-pic{
+    margin: 7px 0;
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    
+}
+h1{
+    font-weight: 100;
+    letter-spacing: 6;
+    padding: 10px;
+    
+}
+h4{
+    font-weight: 300;
+    letter-spacing: 2px;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+.social-icons{
+    font-size: 40px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    
+}
+.social-icons a{
+    color: white;
+}
+.social-icons a:hover{
+    color: #e67e22;
+}
+
+
+.line-break{
+    width: 200px;
+    height: 2px;
+    margin: 0 auto;
+    border-top: 1px solid white;
+    
+    
+}
+/*--BUTTON STYLING--*/
+.btn{
+    display: inline-block;
+    padding: 8px 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #ffffff;
+    font-size: 16px;
+    border: 1px solid #66ed3c;
+    
+}
+.btn-full{
+    background-color: #66ed3c;
+    border: 1px solid #66ed3c;
+    
+}
+.btn-ghost{
+    border: 1px solid #66ed3c;
+    color: #66ed3c;
+}
+.btn:hover{
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+}
+section{
+    padding: 80px 0;
+}
+.container-intro{
+    width: 100%;
+    
+    
+    
+  /*--ABOUT START--*/  
+    
+    
+}
+.intro{
+    
+    width: 47.5%;
+    height: 500px;
+    background-color: rgba(4, 48, 54, 0.4);
+    padding: 30px;
+    font-family: 'Helvetica Neue', sans-serif;
+    
+    border-radius: 10px;
+    float: left;
+    text-align: center;
+    margin: 10px;
+
+    
+    
+}
+ h3{
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #66ed3c;
+     
+}
+.intro p{
+    font-size: 18px;
+    padding: 30px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+    letter-spacing: 1px;
+    
+}
+
+/*.intro{
+    
+    width: 40%;
+    height: 500px;
+    background-color: rgba(4, 48, 54, 0.4);
+    padding: 40px;
+    
+    color:#ffffff;
+    border-radius: 10px;
+    text-align: center;
+    
+    
+}
+*/
+
+/*---SKILLS BAR--*/
+.code {
+    text-align: left;
+    
+
+}
+.container-skills {
+  width: 90%;
+  background-color: #ddd;
+}
+.skills  {
+  text-align: right;
+  line-height: 16px;
+  color: white;
+}
+
+.html {
+    width: 90%; background-color: #3bb914;
+}
+.css {
+    width: 80%; background-color: #3bb914;
+}
+.bs {
+    width: 75%; background-color: #3bb914;
+}
+.jq {
+    width: 60%; background-color: #3bb914;
+}
+
+
+
+ section .head h3{
+    font-size: 80px;
+    letter-spacing: 2px;
+    color: #65ed3c;
+     text-align: center;
+}
+.head p{
+    font-size: 18px;
+    line-height: 105%;
+    padding: 30px;
+    font-weight: 400;
+    text-align: center;
+    font-weight: bold;
+    
+    color: #ffffff;
+    letter-spacing: 1px;
+    
+}
+
+
+.service-cards {
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    margin-bottom: 140px;
+   
+    
+}
+
+.price {
+    list-style-type: none;
+    border: 7px;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.70);
+    color: #ffffff;
+}
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #65ed3c;
+    font-size: 25px;
+}
+
+.price li {
+    width: 100%;
+    padding: 6%;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
+
+.price .grey {
+    background-color: rgba(4, 10,250, 0.8);
+    font-size: 20px;
+}
+/*---MY WORK SECTION/ PHOTO GALLERY STARTS---*/
+ 
+span{
+    color: #65ed3c;
+}
+.container{
+    width: 100%;
+    height: auto;
+    background-color: rgba(4, 48, 54, 0.4);
+    padding: 30px;
+    
+    
+    
+}
+.pic h3{
+    
+    font-weight: bold;
+    text-align: center;
+    padding: 95px;
+    font-size: 60px;
+    
+}
+
+.floats {
+    display: inline-block;
+    width: 31.3%;
+    height: auto;
+    margin: 9px;
+    text-align: center;
+    
+    
+    
+    
+     
+}
+.floats img{
+    width: 400px;
+    height: 250px;
+    border-radius: 5px;
+    -webkit-transform: scale(1.15 0.5s);
+    transform: scale(1.15 0.5s);
+    opacity: 0.9;
+    background-color: #000000;
+}
+
+.floats img:hover{
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    opacity: 1.0;
+}
+
+
+/*--CONTACTS SECTION START--*/
+
+
+/*.container2{
+    width: 100%;
+    height: auto;
+    background-color: rgba(234, 234, 234,0.6);
+    padding: 30px;
+    
+}
+*/
+.container2 h3{
+    font-weight: bold;
+    text-align: center;
+    padding: 65px;
+    font-size: 60px;
+}
+
+.contacts{
+    display: inline-block;
+    width: 300px;
+    height: 140px;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: 60px;
+}
+.contacts p{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: inherit;
+    
+    text-align: center;
+    
+}
+.small{
+    display: block;
+    color: #ffffff;
+    
+    font-size: 25px;
+    
+}
+
+
+.icon .small{
+    width: 55px;
+    height: 55px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    
+    margin-left: 95px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    line-height: 108%;
+   
+}
+
+/*---Promo For Bppk Section--Start--*/
+.container-last{
+    width: 80%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    margin: 0 auto;
+    border: 25px solid #66ed3c;
+}
+    
+.promo{
+    width: 40%;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    
+}
+
+.promo p{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    color: #03033c;
+    font-weight: bold;
+    
+}
+.quote{
+    font-style: italic;
+    font-size: 16px;
+    font-weight: bold;
+    color: #d60bb7;
+}
+.promo h2{
+    font-size: 55px;
+    font-weight: bold;
+    font-family: cursive;
+    margin-top: -40px;
+    padding: 20px;
+    color: #d60bb7;
+}
+.promo img{
+    height: auto;
+    width: 220px;
+    border: 9px solid #d60bb7;
+    
+}
+
+footer{
+    color: #ffffff;
+    background-color: rgba(0, 0,0, 0.9);
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    padding: 30px;
+    
+}
+footer p{
+    margin-top: 30px;
+    
+    
+}
+.foot-nav{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.foot-nav li{
+    display: inline-block;
+}
+
+.foot-nav a{
+    color: #ffffff;
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 7px;
+    padding: 20px;
+    
+}
+.foot-nav a:hover{
+    color: #66ed3c;
+    padding-bottom: 7px;
+}
+
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    opacity: 0.8;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    -webkit-transition: 0.5s;
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+
+
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 38px 8px 3px 32px;
+    text-decoration: none;
+    font-size: 32px;
+    color: #818181;
+    display: block;
+    -webkit-transition: 0.3s;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #66ed3c;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    -webkit-transition: margin-left .5s;
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+
+    
+
+.barz1{
+    font-size: 50px;
+    line-height: 5px;
+    font-weight: bold;
+    color: #65ed3c;
+    margin-left: 30px;
+    margin-top: 60px;
+    cursor: pointer;
+    position: fixed;
+    background-color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+
+/*-media queries-*/
+ @media (max-width:320px){
+
+    .barz1{
+        font-size: 40px;
+        margin-top: 40px;
+    }
+    .prof{
+        width: 280px;
+        height: 500px;
+        text-align: center;
+        font-size: 12px;
+        
+    }
+    .prof pic{
+        width: 100px;
+        height: auto;
+    }
+    .btn{
+        font-size: 12px;
+        padding: 4px 8px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .social-icons{
+        padding-bottom: 8px;
+    }
+    
+    .intro{
+        display: block;
+        padding: 15px;
+        overflow: hidden;
+        width: 80%;
+        height: auto;
+        font-size: 12px;
+        text-align: center;
+        margin-left: 25px;
+    }
+    h3{
+        font-size: 38px;
+    }
+    section .head h3{
+        font-size: 55px;
+    }
+    .head p{
+        font-size: 16px;
+    }
+    .service-cards{
+        display: block;
+        width: 80%;
+        margin-left: 25px;
+        
+    }
+    .floats{
+        display: block;
+        width: 40%;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+    .floats img{
+        width: auto;
+        max-width: 220px;
+        height: auto;
+        min-height: 200px;
+        
+    }
+    .container2 h3{
+        font-size: 50px;
+    }
+    .contacts{
+        width: 220px;
+        height: 130px;
+        text-align: center;
+        margin-left: 36px;
+        
+    }
+   .icon .small{
+       margin-left: 65px;
+    
+    }
+    .container-last{
+        width: 90%;
+        height: auto;
+        border: 4px solid #66ed3c;
+    }
+    .promo{
+        width: 90%;
+        height: auto;
+        padding: 2px;
+    }
+    .promo h2{
+        font-size: 40px;
+    }
+    .promo p{
+        font-size: 24px;
+        margin-bottom: 20px;
+        
+    }
+    .quote{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .promo img{
+        margin-left: -32px;
+    }
+    .foot-nav li {
+        display: block;
+        font-size: 14px;
+        
+        
+    }
+    .foot-nav li a{
+        font-size: 16px;
+        padding: 10px;
+    }
+    .social-icons{
+        font-size: 35px;
+        margin-bottom: 2px;
+    }
+    footer p{
+        font-size: 12px;
+        
+    }
+    
+    footer{
+        padding: 6px;
+    }
+}
+
+@media (max-width:480px){
+    .intro{
+        display: block;
+        padding: 15px;
+        overflow: hidden;
+        width: 80%;
+        height: auto;
+        font-size: 12px;
+        text-align: center;
+        margin-left: 32px;
+    }
+    
+    .service-cards{
+        display: block;
+        width: 80%;
+        margin-left: 25px;
+        
+    }
+    .floats{
+        display: block;
+        width: 40%;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+    .floats img{
+        width: 100%;
+        min-width: 300px;
+        
+        height: auto;
+        
+        
+    }
+    
+        
+.container-last{
+        width: 90%;
+        height: auto;
+        border: 8px solid #66ed3c;
+    }
+    .promo{
+        width: 90%;
+        height: auto;
+        padding: 2px;
+    }
+    .promo h2{
+        font-size: 60px;
+    }
+    .promo p{
+        font-size: 28px;
+        margin-bottom: 28px;
+        
+    }
+    .quote{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .promo img{
+        margin-left: -32px;
+    }
+    
+    .foot-nav li {
+        display: inline-block;
+        font-size: 16px;
+        
+        
+    }
+    .foot-nav li a{
+        font-size: 16px;
+        padding: 6px;
+    }
+    
+}
+
+
+@media (max-width:768px){
+    
+   
+    .intro{
+        display: block;
+        padding: 45px;
+        overflow: hidden;
+        width: 80%;
+        height: auto;
+        font-size: 12px;
+        text-align: center;
+        margin-left: 62px;
+    }
+    .service-cards{
+        display:inline-block;
+        width: 65%;
+        margin-left: 155px;
+        font-size: 30px;
+        padding: 6px;
+        
+    }
+    .floats{
+        display: inline-block;
+        width: 80%;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+    .floats img{
+        width: 100%;
+        height: auto;
+        min-height: 300px;
+        margin-left: 33px;
+        
+        
+    }
+    
+    .contacts{
+        margin-left: 200px;
+    }
+    
+    
+    .promo{
+        width: 90%;
+        height: auto;
+        padding: 2px;
+    }
+    
+    
+    
+    
+}
+
+
+
+@media (max-width:979px){
+    
+    .floats {
+    display: inline-block;
+    width: 47.3%;
+    height: auto;
+    margin: 9px;
+    text-align: center;
+      
+     
+}
+.floats img{
+    width: 400px;
+    height: 250px;
+    border-radius: 5px;
+    -webkit-transform: scale(1.15 0.5s);
+    transform: scale(1.15 0.5s);
+    opacity: 0.9;
+    background-color: #000000;
+}
+
+ .contacts{
+    display: inline-block;
+    width: 185px;
+    height: 140px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: 60px;
+}   
+    
+    
+    .icon .small{
+        margin-left: 58px;
+    }
+    
+    .promo img{
+        margin-bottom: 60px;
+        width: 280px
+    }
+}
+
+
+
+
+
+
